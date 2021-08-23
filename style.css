@@ -1,0 +1,149 @@
+.menu{
+	width: 150px;
+	background-color: #45015d;
+	padding: 10px 20px;
+	border-radius: 25px;
+	color: white;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	font-weight: bold;
+}
+.menu a{
+	display: block;
+	padding: 10px 20px;
+	color: inherit;
+	text-decoration: none;
+}
+.menu a:hover{
+	color: #45015d;
+	background-color: white;
+}
+body{
+	margin: 0;
+	font-family: "Poppins",sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+}
+.content{
+	margin-left: 360px;
+	margin-right: 40px;
+	margin-top: 80px;
+}
+.content h1{
+	font-size: 50px ;
+	font-weight: 400;
+}
+h2{
+	font-size: 40px ;
+	font-weight: 400;
+	color: #45015d;
+	margin: 10px 0;
+}
+hr{
+	border: solid 5px #45015d;
+	border-radius: 15px;
+	margin: 10px 0;
+	width: 100%;
+	background-color: #45015d;
+}
+#showcase img{
+	width: 35%;
+	margin: 5px;
+	border-radius: 15px;
+	opacity: 0.6;
+}
+#showcase img:hover{
+	opacity: 1;
+}
+.member{
+	width: 30%;
+	display: inline-block;
+	padding: 8px;
+}
+.member img{
+	width: 100%;
+	border-radius: 15px;
+	filter: grayscale(30%);
+}
+.member .description{
+	background-color: #f1f1f1;
+	border-radius: 15px;
+	padding: 2px 16px 5px;
+}
+.position{
+	color: gray;
+}
+.tariff li{
+	list-style-type: none;
+	border-bottom: solid 1px gray;
+	text-align: center;
+	padding: 15px;
+	font-weight: 400;
+	background-color: #80808030;
+}
+.tariff{
+	width: 35%;
+	display: inline-block;
+}
+.tariff .tariff-name{
+	font-weight: bold;
+	font-size: 24px;
+	background-color: #45015d;
+	border-radius: 15px;
+	color: white;
+	padding: 30px;
+}
+.pro .tariff-name{
+	background-color: #ff5838;
+}
+.tariff button{
+	padding: 10px;
+	background-color: #45015d;
+	border-radius: 15px;
+	color: white;
+	border-color: #45015d;
+}
+.tariff button:hover{
+	color: #45015d;
+	background-color: white;
+}
+.pro button{
+	background-color: #ff5838;
+	border-color: #ff5838;
+}
+.pro button:hover{
+	color: #ff5838;
+	background-color: white;
+}
+#contact input{
+	width: 100%;
+	display: block;
+	font-size: 16px;
+	padding: 8px;
+	outline: none;
+}
+#contact button{
+	width: 100%;
+	font-size: 16px;
+	background-color: #45015d;
+	border-radius: 8px;
+	padding: 8px;
+	color: white;
+	border-color: #45015d;
+	font-weight: 16px;
+}
+#contact button:hover{
+	background-color: white;
+	color: #45015d;
+}
+.footer{
+	text-align: right;
+	background-color: #80808030;
+	padding: 15px;
+	margin-top: 50px;
+}
+.footer a{
+	color: black;
+}
